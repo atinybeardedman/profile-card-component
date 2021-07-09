@@ -64,8 +64,7 @@ footer {
 }
 
 .card {
-  width: 100%;
-  max-width: 85vw;
+  width: 320px;
   margin: auto;
   display: flex;
   flex-direction: column;
@@ -131,4 +130,11 @@ footer {
   letter-spacing: 0.1rem;
   font-size: 0.6rem;
   padding-top: 0.2rem;
+}
+
+@media screen and (min-width: 760px) {
+    body {
+        background-position: -20vw -35vw, 45vw 25vw;
+        background-size: auto, auto;
+    }
 }
